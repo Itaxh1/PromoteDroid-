@@ -1,0 +1,45 @@
+{
+  "id": "db04f37e-0d01-43d7-bc5b-41784207e3af",
+  "name": "\"hi \", \"hello\" ,  \"hola\"",
+  "auto": true,
+  "contexts": [
+    "Heyy"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetings",
+      "affectedContexts": [
+        {
+          "name": "Heyy",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "03dc2abf-eee3-452b-a5d9-eeef36c906c1",
+          "required": true,
+          "dataType": "@sys.place-attraction-us",
+          "name": "Greetings",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539794652,
+  "fallbackIntent": false,
+  "events": []
+}
